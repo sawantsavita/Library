@@ -1,0 +1,13 @@
+{% extends 'base.html' %}  
+  
+{% block content %}  
+    <h1>Information about Book with ID = {{object.id}}</h1>
+    <p> {{object.name}}</p>  
+  
+    <p>{{ object.price }}</p>  
+    <p>{{ object.quantity }}</p>  
+    <p>{{ object.author }}</p> 
+    <p>{{ object.is_published }}</p> 
+    <p>{{ object.is_active }}</p> 
+  
+{% endblock content %}  
